@@ -64,6 +64,11 @@ ClickPick utilizes the following technologies for development:
 
 The chosen technologies provide a robust and efficient development environment for implementing the ClickPick e-commerce platform.
 
+## Demo Video<a name="demo-video"></a>
+To get a glimpse of how ClickPick works and the features it offers, please watch our demo video below:
+
+https://github.com/AbanoubSamir004/ClickPick/assets/60902991/ef8b4f9b-2b44-4295-8e89-0e56cc3859f1
+
 ## About Us<a name="about-us"></a>
 We are a team of dedicated student AI enthusiasts who have come together to create ClickPick, a platform that revolutionizes the online shopping experience. Our mission is to make decision-making in online shopping more flexible and easy for users like you.
 
@@ -72,12 +77,6 @@ By aggregating products from different marketplaces and utilizing AI technology,
 We are passionate about enhancing your online shopping experience and helping you make smarter choices. With our user-friendly platform, navigating the online marketplace and finding the perfect product has never been easier.
 
 Thank you for choosing our website. We look forward to assisting you in making confident and informed purchasing decisions.
-
-## Demo Video<a name="demo-video"></a>
-To get a glimpse of how ClickPick works and the features it offers, please watch our demo video below:
-
-
-https://github.com/AbanoubSamir004/ClickPick/assets/60902991/ef8b4f9b-2b44-4295-8e89-0e56cc3859f1
 
 
 ## Our Team<a name="our-team"></a>
