@@ -1,0 +1,173 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.don {
+  margin-bottom: -17rem;
+  margin-left: 26rem;
+  font-size: 28px;
+}
+
+.have {
+  font-size: 1.4rem;
+  margin-left:26rem;
+  margin-top:18rem;
+  margin-bottom:2rem;
+
+}
+
+input {
+  margin-right: -2rem;
+  height: 2rem;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid gray;
+}
+
+#signin-btn {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  background-color: #1f3258;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 10%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: 175px;
+  margin-top: 2rem; /* Adjust the margin-top value as needed */
+  margin-bottom: 10px; /* Adjust the margin-top value as needed */
+
+}
+
+#signin-btn:hover {
+  background-color: rgb(97, 183, 218);
+}
+
+#password5 {
+  border-radius: 0.25rem;
+  border: 1px solid gray;
+  width: 32%;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 25rem;
+}
+
+#email5 {
+  border-radius: 0.25rem;
+  border: 1px solid gray;
+  width: 32%;
+  height: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 25rem;
+}
+
+.input-container {
+  margin-top: 7rem;
+  margin-left: -13.3rem;
+  padding: 2%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../../public/images/blue.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: left center;
+  background-color: white;
+  height:auto;
+  min-width: 170%;
+}
+
+.logos {
+  width: 18rem;
+  height:auto;
+  margin-bottom: -0.2rem;
+  margin-left:25rem;
+}
+
+.signup-button {
+  
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+ 
+}
+
+.forgot-password {
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 27rem;
+  margin-bottom: 20rem;
+
+}
+
+/* CSS for screens with a width up to 768px */
+@media (max-width: 500px) {
+
+
+  .don {
+    margin-left: 14.7rem;
+    font-size: 15px;
+  }
+  
+  .have {
+    
+    font-size: 12px;
+    margin-left: 14.7rem;
+  }
+
+  input {
+    /* adjust the width */
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  #password5, #email5 {
+    /* adjust the margin and width */
+    margin-left: 15rem;
+    width: 40%;
+  }
+
+  .input-container {
+    /* adjust the margin and min-width */
+    margin-left: 0;
+    max-width: 32rem;
+  }
+
+  .logo {
+    /* adjust the margin */
+    margin-left: 15rem;
+    width: 12rem;
+    height: 8rem;
+  }
+  
+
+  .forgot-password {
+    /* adjust the margin */
+    margin-left: 15rem;
+  }
+  #signin-btn {
+    width:6rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    transform: translate(82%, -20%);
+  }
+  .signup-button {
+    font-size:0.8rem;
+    
+   
+  }
+}

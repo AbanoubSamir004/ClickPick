@@ -1,0 +1,50 @@
+.fixed-background {
+    background-image: url('../../public/images/cover_page2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  nav {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 90px;
+    white-space: nowrap;
+  }
+  .aboutus-container h1 {
+    text-align: center;
+    
+  }
+  .aboutus-container {
+    max-width: 750px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+    /* text-align: center; */
+    /* margin: 140px auto; */
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.312);
+    font-size: 20px;
+  }
+  

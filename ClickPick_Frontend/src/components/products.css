@@ -1,0 +1,230 @@
+/*body{
+  background-color:#f0f5f4;
+}*/
+.product-search-results {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+.filters h2 {
+  text-align: center;
+}
+.filters {
+  min-height: 970px;
+  flex: 0 0 20%;
+  position: absolute;
+  left: 20px;
+  top: 156px;
+  background-color: #a6a6a641;
+  border: 2px solid #ddd;
+  margin-bottom: 200px;
+  padding-bottom: 90px;
+  border-radius: 1.2%;
+  width: 280px; /* Adjust the width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  .filters label {
+    width: 100%
+  }
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  margin-bottom: 1px;
+
+}
+
+  .checkbox-container input[type='checkbox'] {
+    max-width: 15px;
+    max-height: 15px;
+    margin-right: 5px;
+    margin-top: 15px;
+  }
+
+  .checkbox-container label {
+    display: block; /* Set the display property to block */
+    white-space: pre-line; /* Prevent the label text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+    max-width: 80%; /* Set the maximum width to 100% */
+    margin-bottom: -12px;
+
+  }
+  .brand-filter,
+  .marketplace-filter {
+    margin-top: 10px;
+    margin-bottom: 22px;
+    margin-left: 35px;    
+  }
+  /* .price-filter{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 150px;
+    margin-bottom: 20px;
+
+  }
+   */
+
+  .product-list {
+    flex: 1 1 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: absolute;
+    top: 100px;
+    left:270px;
+    width: 70%;
+    padding: 30px;
+    
+  }
+  .favorite-button {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: #888; /* default color */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    top: -40px;
+    left: 280px;
+  }
+  
+  .favorite-button::after {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "\2764"; /* outlined heart symbol */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .favorite-button.clicked::after {
+    color: red; /* clicked color */
+    
+    content: "\2764"; /* filled heart symbol */
+  }
+
+  .product {
+    flex: 0 0 calc(25% - -7.5px);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7%;
+    max-width: 370px; 
+    max-height: 460px;
+    
+  }
+  
+  .product img {
+    margin-top: -20px;
+    width: 310px; 
+    height: 330px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    margin-bottom: -5px;
+    font-size: 18px;
+    display: inline; 
+      white-space: nowrap;
+      margin-left: -0.2rem;
+
+  }
+  
+  .product p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+
+  .ProductRatings0 {
+
+    cursor: pointer;
+    outline: none;
+    margin-top: 24px;
+    margin-left: -50px;
+  }
+  .ProductRatings0:hover {
+    color: black; /* Change the color to black on hover */
+  }
+  .ratingcount {
+    position: absolute;
+    margin-left: 35px;
+    margin-right: 2px;
+    margin-top: 19px;
+    font-size: 16px;
+  }
+  .before {
+    /* position: absolute; */
+    margin-left: 100px;
+    margin-top: -36px;
+    text-decoration: line-through;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category-breadcrumb{
+    margin-left: 330px;
+
+  }
+  .category-breadcrumb button.breadcrumb-button {
+    /* color: rgb(130, 128, 128); */
+    color: rgb(41, 56, 87);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    background: none;
+  }
+  
+  .category-breadcrumb button.breadcrumb-button:hover{
+    color: rgba(0, 0, 0);
+  }
+  .view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin-top to create space between products and button */
+    position: -webkit-sticky;
+
+    width: 100%;
+  }
+  
+  .view-more button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add border properties to create an outer edge */
+    border: 1px solid rgba(0, 0, 0, 0.106);
+    border-radius: 6px;
+  }
+  
+  .view-more button:hover {
+    background-color: rgba(205, 203, 203, 0.479);
+  }
+  
+.product-link2{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}

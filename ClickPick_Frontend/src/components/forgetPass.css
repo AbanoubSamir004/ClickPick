@@ -1,0 +1,92 @@
+
+.input-container2 {
+  margin-top: 12rem;
+  margin-left: -13.3rem;
+  padding: 2%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  background-image: url("../../public/images/blue.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: left center;
+  background-color: white;
+  height:auto;
+  min-width: 170%;
+}
+
+.h {
+  margin-bottom: -20rem;
+  margin-left: 26rem;
+  font-size: 28px;
+}
+
+.hh {
+  
+  font-size: 1.4rem;
+  margin-left:25rem;
+  margin-top:21rem;
+}
+#email2{
+  border-radius: 0.25rem;
+  border: 1px solid gray;
+  width: 32%;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 25rem;
+}
+
+#email2 ::placeholder {
+  font-size:12px;
+}
+
+.hhh {
+  margin-bottom: -20rem;
+  margin-left: 28rem;
+  margin-right: 1rem;
+
+  font-size: 28px;
+}
+
+.hhhhh {
+  margin-right: -1.5rem;
+  font-size: 1.4rem;
+  margin-left:25rem;
+  margin-top:21rem;
+}
+
+
+.forget-button  {
+  
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+ 
+}
+#forget-button {
+  padding: 0.5rem;
+  padding-right: 5rem;
+  padding-left: 1.2rem;
+
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  background-color: #1f3258;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 12%;
+  border-radius: 10%;
+  display: inline-block;
+  margin-left: 30rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+  transform: translate(-25%, -100%);
+}
+
+#forget-button:hover {
+  background-color: rgb(97, 183, 218);
+}
