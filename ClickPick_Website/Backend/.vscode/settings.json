@@ -1,0 +1,5 @@
+{
+    "search.useGlobalIgnoreFiles": true,
+    "search.useParentIgnoreFiles": true,
+    "git.terminalAuthentication": true
+}
