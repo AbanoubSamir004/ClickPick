@@ -67,7 +67,9 @@ The chosen technologies provide a robust and efficient development environment f
 ## Demo Video<a name="demo-video"></a>
 To get a glimpse of how ClickPick works and the features it offers, please watch our demo video below:
 
-https://github.com/AbanoubSamir004/ClickPick/assets/60902991/ef8b4f9b-2b44-4295-8e89-0e56cc3859f1
+
+https://github.com/AbanoubSamir004/ClickPick/assets/60902991/928539ab-4e7c-4192-84b7-d38f65e08798
+
 
 ## About Us<a name="about-us"></a>
 We are a team of dedicated student AI enthusiasts who have come together to create ClickPick, a platform that revolutionizes the online shopping experience. Our mission is to make decision-making in online shopping more flexible and easy for users like you.
