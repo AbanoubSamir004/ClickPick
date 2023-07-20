@@ -99,7 +99,7 @@ function Fav() {
         ) : (
           productsData.map((product) => (
             <div key={product.ProductID} className="product1">
-              <Link key={product.ProductID} to={`/product`} className="product-link2">
+              <Link key={product.ProductID} to={`/product/${product.ProductID}`} className="product-link2">
                 <img src={product.ProductImage} alt={product.ProductTitle} />
                 <div className="product-details1">
                   <h3>{product.ProductTitle.length > 35 ? product.ProductTitle.substr(0, 25) + '...' : product.ProductTitle}</h3>
