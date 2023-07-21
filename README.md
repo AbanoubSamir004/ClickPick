@@ -51,8 +51,9 @@ ClickPick utilizes the following methodologies and models to enhance the platfor
 ClickPick utilizes the following technologies for development:
 
 - Python
+- keras
+- Tensorflow
 - Discord
-- Zoom
 - Jupyter Notebook
 - Visual Studio Code
 - Google Colab
